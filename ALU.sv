@@ -14,36 +14,46 @@ module ALU (
 
   always @ (*) begin	 
 	 case(EXE_CMD)
-		4'b0001: //MOV
+		4'b0001: begin//MOVbegin
 			temp = B;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-		4'b1001: //MVN
+		end
+		4'b1001: begin//MVN
 			temp = ~B;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-		4'b0010: //ADD LDR STR
+		end
+		4'b0010: begin//ADD LDR STR
 			temp = {A[31],A} + {B[31],B};
 			status = {temp[31], (temp == 32'b0), temp[32], temp[31]^temp[32]};
-		4'b0011: //ADDC
+		end
+		4'b0011: begin//ADDC
 			temp = {A[31],A} + {B[31],B} + cin;
 			status = {temp[31], (temp == 32'b0), temp[32], temp[31]^temp[32]};
-		4'b0100: //SUB CMP
+		end
+		4'b0100: begin//SUB CMP
 			temp = {A[31],A} - {B[31],B};
 			status = {temp[31], (temp == 32'b0), temp[32], temp[31]^temp[32]};
-		4'b0101: //SUBC
+		end
+		4'b0101: begin//SUBC
 			temp = {A[31],A} - {B[31],B} - cin;
 			status = {temp[31], (temp == 32'b0), temp[32], temp[31]^temp[32]};
-		4'b0110: //AND and TSTSTR
+		end
+		4'b0110: begin//AND and TSTSTR
 			temp = A & B;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-		4'b0111: //OR
+		end
+		4'b0111: begin//OR
 			temp = A | B;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-		4'b1000: //EOR
+		end
+		4'b1000: begin//EOR
 			temp = A ^ B;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-		default:
+		end
+		default: begin
 			temp = 0;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
+	 end
 	endcase
 
 
