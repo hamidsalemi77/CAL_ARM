@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module RegisterFile(
+module RFF(
 	input clk, rst,
 	input[3:0] src1, src2, Dest_wb,
 	input[31:0] Result_WB,

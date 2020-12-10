@@ -5,9 +5,6 @@ module Hazard_Unit(
     input [3:0] Mem_Dest,
     input MEM_WB_EN,
     input two_src,
-    
-    
-    
     output hazard_detection
 );
 

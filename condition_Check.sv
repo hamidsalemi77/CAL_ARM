@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module condition_Check(
+module ConditionCheck(
 	input[3:0] cond,
 	input [3:0] status,
 	output reg out);

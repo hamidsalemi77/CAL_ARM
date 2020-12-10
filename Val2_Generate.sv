@@ -18,7 +18,8 @@ integer counter;
 
 always@(*) begin
   if(mem_en)
-    val2 = {20'b0, shift_oprand};
+    
+    val2 = {{20{shift_oprand[11]}}, shift_oprand};
      
   else begin
     if(imm == 0)begin
@@ -26,28 +27,31 @@ always@(*) begin
         2'b00:begin//logical left
              val2 = val_Rm_in;
               for(counter = 0; counter < shift_oprand[11:7]; counter = counter + 1)begin
-                 val2 = {val2[30:0] , 1'b0};
+                 val2 = {val2[30:0] , 1'b0};// val2[31:1] << shift_oprand;
               end
         end
     
       2'b01:begin//logical right
             val2 = val_Rm_in;
               for(counter = 0; counter < shift_oprand[11:7]; counter = counter + 1)begin
-                 val2 = {1'b0, val2[31:1]};
+                 val2 = {1'b0, val2[31:1]};// val2[31:1] >> shift_oprand;
               end
         end
       
         2'b10:begin//arithmatic right
             val2 = val_Rm_in;
               for(counter = 0; counter < shift_oprand[11:7]; counter = counter + 1)begin
-                 val2 = {val2[31], val2[31:1]};
+                 val2 = {val2[31], val2[31:1]}; // val2[31:1] >>> shift_oprand;
               end
         end
         2'b11:begin //rotate right
             val2 = val_Rm_in;
               for(counter = 0; counter < shift_oprand[11:7]; counter = counter + 1)begin
-                 val2 = {val2[0], val2[31:1]};
-              end
+                 val2 = {val2[0], val2[31:1]}; 
+                 //// reg[63:0] temp;
+                 // temp = {val2,val2} >> shift_oprand;
+                 // val2 = temp[31:0]
+             end
         end
         endcase
     end
