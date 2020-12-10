@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module data_mem (
+module DataMemory(
   input clk, rst, MEM_W_EN, MEM_R_EN,
   input [31:0] Address, 
   input [31:0] val_Rm,
