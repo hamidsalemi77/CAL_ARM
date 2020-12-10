@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module EXE_Stage_Reg(
+module EXE_MEM(
     input clk, 
     input rst,
     input [31:0] PC, ALU_Result, Val_Rm ,

@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module WB_Stage(
+module WB(
     input clk, rst, 
     input [3:0] WB_Dest,
     input WB_EN, MEM_R_EN,

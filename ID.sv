@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module ID_Stage(
+module ID(
     input clk, rst,
     input [31:0] PC_in, Instruction,
     //from WB Stage
