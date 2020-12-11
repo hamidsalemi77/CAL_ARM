@@ -29,6 +29,6 @@ module EXE(
  assign PC_out = PC;
  Val2_Generate V2G(val_Rm,imm, mem_en,shift_oprand,val2);
  ALU alu(val_Rn, val2, EXE_CMD, C_in, status, ALU_result);
- b32adder(PC, signed_imm_24,Br_addr);
+ b32adder adder(PC, signed_imm_24,Br_addr);
           
 endmodule
