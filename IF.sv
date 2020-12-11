@@ -11,10 +11,11 @@ module IF( input clk, rst, freeze, BranchTaken,
       
   assign pcin = (BranchTaken == 1'b1) ? BranchAddr : addout;
   
-  
+  logic pc_en;
+  assign pc_en = ~(freeze & ~BranchTaken);
 
      
-  b32regen PCReg(pcin, clk, rst, ~freeze, pcout);
+  b32regen PCReg(pcin, clk, rst, pc_en, pcout);
   instmem IM(pcout, clk, rst, instmem_out);
   b32adder A1(n4, pcout, addout);
 

@@ -23,12 +23,12 @@ module TopModule(input clk, rst);
   logic[23:0] signed_imm_24,
               EX_signed_imm_24;
  
-  logic[31:0] BranchAddr, Val_Rn ,Val_Rm, ALU_result, ALU_result_out, Br_addr,
+  logic[31:0] BranchAddr, Val_Rn ,Val_Rm, ALU_result, ALU_result_out,
               IF_PC_out,IF_instruction_out,
               ID_PC_in, ID_PC_out, ID_instruction_in, 
               EX_PC_in, EX_PC_out, EX_val_Rn, EX_val_Rm, EX_Val_Rm_out,
               MEM_PC_in, MEM_PC_out, MEM_data, MEM_ALU_result, MEM_Val_Rm,
-              WB_PC_in, WB_PC_out, Result_WB, WB_data, WB_ALU_result;
+              WB_PC_in, Result_WB, WB_data, WB_ALU_result;
 
               
   IF If(clk, rst, hazard, B, BranchAddr, IF_PC_out, IF_instruction_out);

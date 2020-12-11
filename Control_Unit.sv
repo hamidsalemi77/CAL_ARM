@@ -68,7 +68,7 @@ always@(*)begin
 		end
 		default:begin
 			execute_command = 4'b0000;
-			mem_read = 1'b0;S = 0; mem_write = 0; B = 0; WB_Enable = 0;
+			mem_read = 1'b0 ;S = 0; mem_write = 0; B = 0; WB_Enable = 0;
 			end
 		endcase
 	end

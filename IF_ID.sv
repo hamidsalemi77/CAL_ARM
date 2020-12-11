@@ -14,6 +14,8 @@ module IF_ID(input clk, rst, flush, freeze,
             Instruction <= instruction_in;
             PC <= pcin;  
          end
+          
+         
      end
    end
   end

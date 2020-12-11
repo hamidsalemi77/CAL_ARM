@@ -9,8 +9,8 @@ module RegisterFile(
 
   reg [31:0] Registers[0:15];
   integer i;
-  assign Reg1 = Registers[src1];
-  assign Reg2 = Registers[src2];
+  assign reg1 = Registers[src1];
+  assign reg2 = Registers[src2];
   
   always @(negedge clk, posedge rst)begin
     if(rst) begin

@@ -38,7 +38,7 @@ module ID(
     assign shift_op = Instruction[11:0];
     assign signed_imm_24 = Instruction[23:0];
     assign Dest = Instruction[15:12];
-    assign two_src = C_mem_write | Instruction[25]; 
+    assign two_src = C_mem_write | ~Instruction[25]; 
 
     ControlUnit CU(Instruction[27:26], Instruction[24:21], Instruction[20],
 	               C_execute_command, C_mem_write, C_mem_read, C_WB_Enable, C_B, C_S);
@@ -47,7 +47,7 @@ module ID(
 	
 
     RegisterFile RF(clk, rst, Instruction[19:16], reg2 , Dest_wb,Result_WB,
-                writeBackEn, Val_Rm, Val_Rn);
+                writeBackEn, Val_Rn, Val_Rm);
  
     
 	  

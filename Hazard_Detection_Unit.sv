@@ -17,18 +17,20 @@ module Hazard_Unit(
       out = 0;
     else begin
       
-			if(two_src)
+			if(two_src) begin
 				if(((EXE_WB_EN & (src2 == EXE_Dest)) | (MEM_WB_EN & (src2 == Mem_Dest)) | (MEM_WB_EN & (src1 == Mem_Dest)) | (EXE_WB_EN & (src1 == EXE_Dest))))begin
 					out = 1'b1;
 				end
 				else  	
 					out = 0;
-			else
+			end
+			else begin
 				if(((MEM_WB_EN & (src1 == Mem_Dest)) | (EXE_WB_EN & (src1 == EXE_Dest))))begin
 					out = 1'b1;
 				end
 				else  	
 					out = 0;
+					end
       end
 	  end
     
