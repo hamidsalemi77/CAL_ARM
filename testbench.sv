@@ -1,9 +1,7 @@
 `timescale 1ns/1ns
 module tb();
   
-  logic rst,clk;
-
-  
+  logic rst,clk;  
   
   TopModule uut(clk, rst);
   
