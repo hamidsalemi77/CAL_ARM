@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module EX(
+module EXE(
     input clk, rst,
     input [3:0] EXE_CMD,
     input MEM_R_EN, MEM_W_EN, WB_EN, 

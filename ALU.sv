@@ -53,7 +53,7 @@ module ALU (
 		default: begin
 			temp = 0;
 			status = {temp[31], (temp == 32'b0), 1'b0, 1'b0};
-	 end
+	 	end
 	endcase
 
 
