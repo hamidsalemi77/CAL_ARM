@@ -13,3 +13,212 @@
 # //  18 U.S.C. Section 1905.
 # //
 # OpenFile C:/Users/asus/Desktop/CAL2/CAL_ARM/TopModule.sv
+project open C:/Users/asus/Desktop/CAL2/CAL_ARM/ARM
+# Loading project ARM
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv failed with 2 errors.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# 21 compiles, 1 failed with 2 errors.
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv failed with 2 errors.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# 21 compiles, 1 failed with 2 errors.
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv failed with 2 errors.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# 21 compiles, 1 failed with 2 errors.
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv failed with 2 errors.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of Data_Memory.sv was successful.
+# Compile of Hazard_Detection_Unit.sv was successful.
+# 23 compiles, 1 failed with 2 errors.
+# Compile of TopModule.sv failed with 2 errors.
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv was successful.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of Data_Memory.sv was successful.
+# Compile of Hazard_Detection_Unit.sv was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv was successful.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of Data_Memory.sv was successful.
+# Compile of Hazard_Detection_Unit.sv was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv was successful.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of Data_Memory.sv was successful.
+# Compile of Hazard_Detection_Unit.sv was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 18:01:29 on Dec 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): C:/Users/asus/Desktop/CAL2/CAL_ARM/EX.sv(32): (vopt-13259) Missing instance name in instantiation of module/program/interface 'b32adder'.
+# Optimization failed
+# Error loading design
+# End time: 18:01:33 on Dec 11,2020, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+# Compile of 32badder.sv was successful.
+# Compile of 32bregen.sv was successful.
+# Compile of 32bregister.sv was successful.
+# Compile of condition_Check.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of EX.sv was successful.
+# Compile of EX_MEM.sv was successful.
+# Compile of ID.sv was successful.
+# Compile of ID_EX.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of IF_ID.sv was successful.
+# Compile of instmem.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MEM_WB.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Status_Reg.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TopModule.sv was successful.
+# Compile of Val2_Generate.sv was successful.
+# Compile of WB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of Data_Memory.sv was successful.
+# Compile of Hazard_Detection_Unit.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 18:03:07 on Dec 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/asus/Desktop/CAL2/CAL_ARM/EX.sv(32): (vopt-2241) Connection width does not match width of port 'b'. The port definition is at: C:/Users/asus/Desktop/CAL2/CAL_ARM/32badder.sv(3).
+# Loading sv_std.std
+# Loading work.tb(fast)
